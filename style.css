@@ -18,7 +18,7 @@
             width: 32px;
             height: 32px;
             }
-    }
+        }
     
     .header-right {
         display: flex;
@@ -26,8 +26,8 @@
         a {
             flex-direction: row;
             margin: 0 1rem;
+            }
         }
-    }
 }
 
 .hero {
@@ -38,7 +38,7 @@
         padding: 0 1rem;
         border-radius: 10%;
         background-color: #aaa;
-    }
+        }
 }
 
 .features {
@@ -56,11 +56,30 @@
             height: auto;
             display: flex;
             margin: 0 auto;
-        }
+            }
         
         h3 {
             margin-top: 1rem;
+            }
         }
-    }
+}
 
+.column {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 4rem;
+    background-color: #ddd;
+    gap: 2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px black solid;
+    
+    .footer-right {
+        display: flex;
+        gap: 1rem;
+    }
 }
